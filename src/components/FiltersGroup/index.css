@@ -1,0 +1,89 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.input {
+  width: 280px;
+  height: 40px;
+  background-color: #f1f5f9;
+  padding-left: 16px;
+  border: none;
+  border-radius: 8px;
+
+  color: #0f172a;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  outline: none;
+}
+
+.category-title {
+  color: #0f172a;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.ul-container {
+  list-style-type: none;
+  padding: 0;
+}
+.category-item {
+  color: #475569;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'Roboto';
+
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+  outline: none;
+}
+.rating-item {
+  color: #475569;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'Roboto';
+
+  display: flex;
+  align-items: center;
+
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+  outline: none;
+}
+.rating-img {
+  width: 180px;
+  margin-right: 20px;
+}
+.clear-filter-button {
+  width: 200px;
+  height: 45px;
+  color: #0967d2;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+
+  background-color: transparent;
+  border: 1px solid #0967d2;
+  border-radius: 10px;
+
+  cursor: pointer;
+  outline: none;
+}
+.color {
+  color: #0967d2;
+}
